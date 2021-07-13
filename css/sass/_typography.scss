@@ -1,0 +1,74 @@
+h1, h2, h3, h4, h5, h6, a{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: $white-light;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    padding: 8px 24px;
+    font-size: 24px;
+
+    transition: .5s ease;
+    
+    position: relative;
+    
+    &::after {
+        content: '';
+        display: block;
+        
+        position: absolute;
+        top: 100%;
+        left: 0;
+        
+        width: 0%;
+        height: 2px;
+        
+        transform: translate(20%, -50%);
+        transition: .5s ease;
+        
+        background-color: $white-normal;
+    }
+
+    &:hover {
+        cursor: pointer;
+        opacity: .8;
+
+        &::after {
+            width: 70%;
+        }
+    }
+}
+
+h1 {
+    font-size: 72px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 64px;
+    }
+}
+
+h2 {
+    font-size: 56px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 18px;
+}
