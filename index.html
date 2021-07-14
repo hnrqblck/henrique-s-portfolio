@@ -13,6 +13,31 @@
 </head>
 <body>
     
+    
+
+    <!-- BACKGROUND -->
+    <div class="relative">
+        <div class="bg-hero">
+            <svg class="svg-hero" viewBox="0 0 1920 1140" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="bg-hero">
+                <rect width="1920" height="1140" fill="#050607"/>
+                <rect class="bg-herosquare2" id="bg-herosquare2" x="1624.32" y="154.414" width="253.005" height="253.005" transform="rotate(45 1624.32 154.414)" stroke="url(#paint0_linear)" stroke-opacity="0.68" stroke-width="2"/>
+                <rect class="bg-herosquare1" id="bg-herosquare1" x="125.414" y="547.369" width="555.722" height="555.722" transform="rotate(-45 125.414 547.369)" stroke="url(#paint1_linear)" stroke-opacity="0.68" stroke-width="2"/>
+                </g>
+                <defs>
+                <linearGradient id="paint0_linear" x1="1751.82" y1="153" x2="1751.82" y2="408.005" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FFE509"/>
+                <stop offset="0.760417" stop-color="#FFE509" stop-opacity="0.26"/>
+                </linearGradient>
+                <linearGradient id="paint1_linear" x1="402.861" y1="547.369" x2="402.861" y2="1105.09" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FFE509"/>
+                <stop offset="0.760417" stop-color="#FFE509" stop-opacity="0.26"/>
+                </linearGradient>
+                </defs>
+            </svg>  
+        </div>
+    </div>
+
     <!-- HEADER -->
     <header class="menu">
         <div class="menu-left">
@@ -27,22 +52,35 @@
             <a href="" class="link">Contact</a>
         </div>
     </header>
-
-    <!-- BACKGROUND -->
-    <div class="bg-hero"></div>
+    
 
     <!--------------->
 
     <section class="container hero">
-        <div class="container-item border">
+        <div class="container-item">
             <h1>Henrique Black</h1>
-            <h2>Web Developer</h2>
-            <h2>Front end developer</h2>
+            <h2 class="mask text-right mt-7 pr-5">Web Developer</h2>
+            <h2 class="mask text-center pr-7">Front end developer</h2>
 
-            <a href="" class="link">PROJECTS</a>
+            <div class="flex-end pr-7 mt-7">
+                <a href="" class="link square">Projects</a>
+            </div>
         </div>
-        <div class="container-item border">
+        <div class="container-item">
             <img src="./images/wode.png" alt="">
+        </div>
+    </section>
+
+    <!-- SELECTED WORKS -->
+
+    <section class="list">
+        <div class="list-item">
+            <h2>Selected Works</h2>
+        </div>
+        <div class="list-item">
+            <h5>01.</h5>
+            <h3>letmeask</h3>
+            <img src="./images/letmeask.PNG" alt="">
         </div>
     </section>
 
