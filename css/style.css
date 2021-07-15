@@ -368,7 +368,6 @@ body {
   transform-box: fill-box;
   -webkit-animation: rotate1 15s ease infinite alternate;
           animation: rotate1 15s ease infinite alternate;
-  position: absolute;
 }
 
 @-webkit-keyframes rotate1 {
