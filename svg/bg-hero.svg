@@ -1,15 +1,30 @@
-<svg width="1920" height="1140" viewBox="0 0 1920 1140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1920" height="2280" viewBox="0 0 1920 2280" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="bg-hero">
-<rect width="1920" height="1140" fill="#050607"/>
-<rect class="bg-herosquare2" id="bg-herosquare2" x="1624.32" y="154.414" width="253.005" height="253.005" transform="rotate(45 1624.32 154.414)" stroke="url(#paint0_linear)" stroke-opacity="0.68" stroke-width="2"/>
-<rect class="bg-herosquare1" id="bg-herosquare1" x="125.414" y="547.369" width="555.722" height="555.722" transform="rotate(-45 125.414 547.369)" stroke="url(#paint1_linear)" stroke-opacity="0.68" stroke-width="2"/>
+<rect width="1920" height="2280" fill="#050607"/>
+<rect id="bg-herosquare5" x="67.4142" y="1045.34" width="166.775" height="166.775" transform="rotate(-45 67.4142 1045.34)" stroke="url(#paint0_linear)" stroke-opacity="0.68" stroke-width="2"/>
+<rect id="bg-herosquare4" x="1667.41" y="2036.34" width="149.805" height="149.805" transform="rotate(-45 1667.41 2036.34)" stroke="url(#paint1_linear)" stroke-opacity="0.68" stroke-width="2"/>
+<rect id="bg-herosquare3" x="1051.41" y="1319.37" width="386.462" height="386.462" transform="rotate(-45 1051.41 1319.37)" stroke="url(#paint2_linear)" stroke-opacity="0.68" stroke-width="2"/>
+<rect id="bg-herosquare2" x="1624.32" y="154.414" width="253.005" height="253.005" transform="rotate(45 1624.32 154.414)" stroke="url(#paint3_linear)" stroke-opacity="0.68" stroke-width="2"/>
+<rect id="bg-herosquare1" x="125.414" y="547.369" width="555.722" height="555.722" transform="rotate(-45 125.414 547.369)" stroke="url(#paint4_linear)" stroke-opacity="0.68" stroke-width="2"/>
 </g>
 <defs>
-<linearGradient id="paint0_linear" x1="1751.82" y1="153" x2="1751.82" y2="408.005" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear" x1="150.388" y1="1045.34" x2="150.388" y2="1214.12" gradientUnits="userSpaceOnUse">
 <stop stop-color="#FFE509"/>
 <stop offset="0.760417" stop-color="#FFE509" stop-opacity="0.26"/>
 </linearGradient>
-<linearGradient id="paint1_linear" x1="402.861" y1="547.369" x2="402.861" y2="1105.09" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear" x1="1741.9" y1="2036.34" x2="1741.9" y2="2188.15" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE509"/>
+<stop offset="0.760417" stop-color="#FFE509" stop-opacity="0.26"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="1244.23" y1="1319.37" x2="1244.23" y2="1707.83" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE509"/>
+<stop offset="0.760417" stop-color="#FFE509" stop-opacity="0.26"/>
+</linearGradient>
+<linearGradient id="paint3_linear" x1="1751.82" y1="153" x2="1751.82" y2="408.005" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE509"/>
+<stop offset="0.760417" stop-color="#FFE509" stop-opacity="0.26"/>
+</linearGradient>
+<linearGradient id="paint4_linear" x1="402.861" y1="547.369" x2="402.861" y2="1105.09" gradientUnits="userSpaceOnUse">
 <stop stop-color="#FFE509"/>
 <stop offset="0.760417" stop-color="#FFE509" stop-opacity="0.26"/>
 </linearGradient>
