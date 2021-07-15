@@ -125,19 +125,19 @@ h6 {
   height: 110px;
   -webkit-transform: translate(0%, -20%) rotate(-45deg);
           transform: translate(0%, -20%) rotate(-45deg);
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
   border-radius: 2px;
   border: 2px solid;
   -o-border-image: linear-gradient(rgba(255, 229, 9, 0.59) 0.09%, rgba(255, 229, 9, 0.0649) 93.82%) 1;
      border-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.09%, rgba(255, 229, 9, 0.59)), color-stop(93.82%, rgba(255, 229, 9, 0.0649))) 1;
      border-image: linear-gradient(rgba(255, 229, 9, 0.59) 0.09%, rgba(255, 229, 9, 0.0649) 93.82%) 1;
-  background: rgba(255, 229, 9, 0.11);
+  background: rgba(255, 230, 9, 0);
 }
 
 .container-item .square:hover::after {
-  -webkit-transform: translate(0%, -20%) rotate(-30deg);
-          transform: translate(0%, -20%) rotate(-30deg);
+  -webkit-transform: translate(0%, -20%) rotate(25deg);
+          transform: translate(0%, -20%) rotate(25deg);
 }
 
 @media screen and (max-width: 600px) {
@@ -362,36 +362,6 @@ body {
   height: 70vh;
 }
 
-#bg-herosquare1 {
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-  transform-box: fill-box;
-  -webkit-animation: rotate1 15s ease infinite alternate;
-          animation: rotate1 15s ease infinite alternate;
-}
-
-@-webkit-keyframes rotate1 {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes rotate1 {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
 #bg-herosquare2 {
   -webkit-transform-origin: center center;
           transform-origin: center center;
@@ -400,30 +370,12 @@ body {
           animation: rotate2 3s ease infinite alternate;
 }
 
-#bg-herosquare3 {
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-  transform-box: fill-box;
-  -webkit-animation: rotate2 3s ease infinite alternate;
-          animation: rotate2 3s ease infinite alternate;
-  display: none;
-}
-
 #bg-herosquare4 {
   -webkit-transform-origin: center center;
           transform-origin: center center;
   transform-box: fill-box;
   -webkit-animation: rotate2 3s ease infinite alternate;
           animation: rotate2 3s ease infinite alternate;
-}
-
-#bg-herosquare5 {
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-  transform-box: fill-box;
-  -webkit-animation: rotate2 3s ease infinite alternate;
-          animation: rotate2 3s ease infinite alternate;
-  display: none;
 }
 
 @-webkit-keyframes rotate2 {

@@ -188,44 +188,17 @@
 
 // ANIMATIONS
 
-#bg-herosquare1 {
-    transform-origin: center center;
-    transform-box: fill-box;
-    animation: rotate1 15s ease infinite alternate;
-}
-
-@keyframes rotate1 {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-
 #bg-herosquare2 {
     transform-origin: center center;
     transform-box: fill-box;
     animation: rotate2 3s ease infinite alternate;
 }
 
-#bg-herosquare3 {
-    transform-origin: center center;
-    transform-box: fill-box;
-    animation: rotate2 3s ease infinite alternate;
-    display: none;
-}
 #bg-herosquare4 {
     transform-origin: center center;
     transform-box: fill-box;
     animation: rotate2 3s ease infinite alternate;
     
-}
-#bg-herosquare5 {
-    transform-origin: center center;
-    transform-box: fill-box;
-    animation: rotate2 3s ease infinite alternate;
-    display: none;
 }
 
 @keyframes rotate2 {

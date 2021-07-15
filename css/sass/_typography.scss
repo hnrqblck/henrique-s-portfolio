@@ -123,7 +123,7 @@ h6 {
         height: 110px;   
 
         transform: translate(-0%, -20%) rotate(-45deg);
-        transition: .5s ease;
+        transition: 1s ease;
 
         border-radius: 2px;
 
@@ -134,13 +134,13 @@ h6 {
              rgba(255, 229, 9, 0.59) 0.09%,
              rgba(255, 229, 9, 0.0649) 93.82%)
              1;
-        background: rgba(255, 229, 9, 0.11);
+        background: rgba(255, 230, 9, 0);
 
     }
 
     &:hover {
         &::after {
-            transform: translate(-0%, -20%) rotate(-30deg);
+            transform: translate(-0%, -20%) rotate(25deg);
         }
     }
 }
