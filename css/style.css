@@ -149,6 +149,15 @@ h6 {
   }
 }
 
+input, textarea, button {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 24px;
+  color: #F5F7F7;
+  padding: 16px 4px;
+  margin: 16px 24px;
+  width: 200%;
+}
+
 body {
   width: 100%;
   background-color: #050607;
@@ -353,6 +362,7 @@ body {
   transition: 1.5s ease;
   -webkit-transform: translate(-50%, -50%) translate3d(-10000px, 0, 0) skewX(90deg);
           transform: translate(-50%, -50%) translate3d(-10000px, 0, 0) skewX(90deg);
+  z-index: -1;
 }
 
 .contact {
@@ -362,12 +372,61 @@ body {
   height: 70vh;
 }
 
-#bg-herosquare2 {
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-  transform-box: fill-box;
-  -webkit-animation: rotate2 3s ease infinite alternate;
-          animation: rotate2 3s ease infinite alternate;
+.contact .form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .form-container input, .contact .form-container textarea {
+  background: #141516;
+  color: #E6E8E8;
+  border: none;
+  resize: none;
+}
+
+.contact .form-container input::-webkit-input-placeholder, .contact .form-container textarea::-webkit-input-placeholder {
+  color: #E6E8E8;
+  opacity: 1;
+}
+
+.contact .form-container input:-ms-input-placeholder, .contact .form-container textarea:-ms-input-placeholder {
+  color: #E6E8E8;
+  opacity: 1;
+}
+
+.contact .form-container input::-ms-input-placeholder, .contact .form-container textarea::-ms-input-placeholder {
+  color: #E6E8E8;
+  opacity: 1;
+}
+
+.contact .form-container input::placeholder, .contact .form-container textarea::placeholder {
+  color: #E6E8E8;
+  opacity: 1;
+}
+
+.contact .form-container input:focus, .contact .form-container textarea:focus {
+  border-radius: 0.4rem;
+}
+
+.contact .form-container button {
+  -o-border-image: linear-gradient(rgba(255, 229, 9, 0.59) 0.09%, rgba(255, 229, 9, 0.0649) 93.82%) 1;
+     border-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.09%, rgba(255, 229, 9, 0.59)), color-stop(93.82%, rgba(255, 229, 9, 0.0649))) 1;
+     border-image: linear-gradient(rgba(255, 229, 9, 0.59) 0.09%, rgba(255, 229, 9, 0.0649) 93.82%) 1;
+  background: rgba(255, 230, 9, 0);
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.contact .form-container button:hover {
+  cursor: pointer;
+  opacity: .8;
 }
 
 #bg-herosquare4 {
